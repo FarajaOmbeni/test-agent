@@ -1,0 +1,7 @@
+{
+    "__pydantic__": "nodeai.metrics.tool_metrics.ToolMetrics",
+    "data": {
+        "entries": {},
+        "recently_retired": {}
+    }
+}

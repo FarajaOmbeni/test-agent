@@ -1,0 +1,38 @@
+{
+    "content": "I can help you check the weather! However, I need to know which location you'd like me to check the weather for. Could you please tell me what city or place you're interested in?",
+    "role": "assistant",
+    "id": "1157531d-8d1e-4c5e-ba75-8cd348fc0995",
+    "timestamp": 1779724754762012000,
+    "message_type": "plain/txt",
+    "previous_response_id": "msg_01FeMqdqEBCez4x9xjqXdWiA",
+    "usage_info": {
+        "prompt_tokens": 1984,
+        "completion_tokens": 43
+    },
+    "model_used": "claude-sonnet-4-20250514",
+    "finish_reason": "end_turn",
+    "provider_stop_sequence": null,
+    "stop_reason": "end_turn",
+    "think_metadata": {
+        "instructions": "",
+        "inner_thoughts": [
+            {
+                "content": "I can help you check the weather! However, I need to know which location you'd like me to check the weather for. Could you please tell me what city or place you're interested in?",
+                "role": "assistant",
+                "id": "1157531d-8d1e-4c5e-ba75-8cd348fc0995",
+                "timestamp": 1779724754762012000,
+                "message_type": "plain/txt",
+                "previous_response_id": "msg_01FeMqdqEBCez4x9xjqXdWiA",
+                "usage_info": {
+                    "prompt_tokens": 1984,
+                    "completion_tokens": 43
+                },
+                "model_used": "claude-sonnet-4-20250514",
+                "finish_reason": "end_turn",
+                "provider_stop_sequence": null,
+                "stop_reason": "end_turn"
+            }
+        ]
+    },
+    "file_path": "None/None/TestBot/test_1/Thoughts/default/1779724754762012000_assistant_txt.json"
+}

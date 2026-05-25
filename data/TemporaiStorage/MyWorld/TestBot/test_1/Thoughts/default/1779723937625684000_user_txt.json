@@ -1,0 +1,9 @@
+{
+    "content": "hi",
+    "role": "user",
+    "id": "89377192-60e7-4c91-b9ef-81c1f54a4b2d",
+    "timestamp": 1779723937625684000,
+    "message_type": "plain/txt",
+    "previous_message_id": "c8f38d2c-efb0-4376-9eac-1d0e2ff54eb4",
+    "file_path": "None/None/TestBot/test_1/Thoughts/default/1779723937625684000_user_txt.json"
+}

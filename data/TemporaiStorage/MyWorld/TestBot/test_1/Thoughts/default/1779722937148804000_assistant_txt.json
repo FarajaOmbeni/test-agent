@@ -1,0 +1,70 @@
+{
+    "content": "Hello! How can I help you today?",
+    "role": "assistant",
+    "id": "a2667568-983a-49ee-8fb4-2f6a8db6a5ff",
+    "timestamp": 1779722937148804000,
+    "message_type": "plain/txt",
+    "previous_response_id": "msg_01DebwJQVPUtDqNyxT7t9v6B",
+    "usage_info": {
+        "prompt_tokens": 1032,
+        "completion_tokens": 12
+    },
+    "model_used": "claude-sonnet-4-20250514",
+    "finish_reason": "end_turn",
+    "provider_stop_sequence": null,
+    "stop_reason": "end_turn",
+    "think_metadata": {
+        "instructions": "",
+        "inner_thoughts": [
+            {
+                "content": [
+                    {
+                        "id": "toolu_01BS4TcpbHqfvW5hArafSVW7",
+                        "type": "function",
+                        "function": {
+                            "name": "greet",
+                            "arguments": "{}"
+                        }
+                    }
+                ],
+                "role": "assistant",
+                "id": "be8e05d3-9804-464d-b5d7-ce1df5f5d6d0",
+                "timestamp": 1779722935879009000,
+                "message_type": "tool_request",
+                "previous_response_id": "msg_018qv2C2NGWdJtCqPyHUvvMz",
+                "usage_info": {
+                    "prompt_tokens": 976,
+                    "completion_tokens": 35
+                },
+                "model_used": "claude-sonnet-4-20250514",
+                "finish_reason": "tool_use",
+                "provider_stop_sequence": null,
+                "tool_outputs": [
+                    {
+                        "tool_call_id": "toolu_01BS4TcpbHqfvW5hArafSVW7",
+                        "name": "greet",
+                        "content": "Hello, world! I'm TestBot.",
+                        "is_error": false
+                    }
+                ]
+            },
+            {
+                "content": "Hello! How can I help you today?",
+                "role": "assistant",
+                "id": "a2667568-983a-49ee-8fb4-2f6a8db6a5ff",
+                "timestamp": 1779722937148804000,
+                "message_type": "plain/txt",
+                "previous_response_id": "msg_01DebwJQVPUtDqNyxT7t9v6B",
+                "usage_info": {
+                    "prompt_tokens": 1032,
+                    "completion_tokens": 12
+                },
+                "model_used": "claude-sonnet-4-20250514",
+                "finish_reason": "end_turn",
+                "provider_stop_sequence": null,
+                "stop_reason": "end_turn"
+            }
+        ]
+    },
+    "file_path": "None/None/TestBot/test_1/Thoughts/default/1779722937148804000_assistant_txt.json"
+}

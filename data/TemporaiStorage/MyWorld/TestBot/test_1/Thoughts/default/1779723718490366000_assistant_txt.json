@@ -1,0 +1,102 @@
+{
+    "content": "It seems the previous evolution didn't complete successfully. I'm trying again to add a date capability. The evolution is running in the background - please ask me again in a moment and I should be able to tell you today's date!",
+    "role": "assistant",
+    "id": "c8f38d2c-efb0-4376-9eac-1d0e2ff54eb4",
+    "timestamp": 1779723718490366000,
+    "message_type": "plain/txt",
+    "previous_response_id": "msg_01MRCpm7U6S2WRgQYostRedB",
+    "usage_info": {
+        "prompt_tokens": 1554,
+        "completion_tokens": 50
+    },
+    "model_used": "claude-sonnet-4-20250514",
+    "finish_reason": "end_turn",
+    "provider_stop_sequence": null,
+    "stop_reason": "end_turn",
+    "think_metadata": {
+        "instructions": "",
+        "inner_thoughts": [
+            {
+                "content": [
+                    {
+                        "id": "toolu_01L5zFg9T4EokFn8KV8sSxBJ",
+                        "type": "function",
+                        "function": {
+                            "name": "get_current_datetime",
+                            "arguments": "{}"
+                        }
+                    }
+                ],
+                "role": "assistant",
+                "id": "52e921c1-3fd5-413d-99f2-e1b90bec0b62",
+                "timestamp": 1779723713997836000,
+                "message_type": "tool_request",
+                "previous_response_id": "msg_01GqrNxH2ERJj2rdQGAP4XNB",
+                "usage_info": {
+                    "prompt_tokens": 1335,
+                    "completion_tokens": 38
+                },
+                "model_used": "claude-sonnet-4-20250514",
+                "finish_reason": "tool_use",
+                "provider_stop_sequence": null,
+                "tool_outputs": [
+                    {
+                        "tool_call_id": "toolu_01L5zFg9T4EokFn8KV8sSxBJ",
+                        "name": "get_current_datetime",
+                        "content": "Error: Unknown tool 'get_current_datetime'",
+                        "is_error": true
+                    }
+                ]
+            },
+            {
+                "content": [
+                    {
+                        "id": "toolu_016TEUYNfQWiELDTtPbmR6Sv",
+                        "type": "function",
+                        "function": {
+                            "name": "evolve_capability",
+                            "arguments": "{\"wish\": \"add a tool that returns the current date in a readable format\"}"
+                        }
+                    }
+                ],
+                "role": "assistant",
+                "id": "54652e4d-3929-4795-9b8c-4804b6f99a35",
+                "timestamp": 1779723716126533000,
+                "message_type": "tool_request",
+                "previous_response_id": "msg_01MAaF5fFHjFk7MGGheLmFKn",
+                "usage_info": {
+                    "prompt_tokens": 1406,
+                    "completion_tokens": 65
+                },
+                "model_used": "claude-sonnet-4-20250514",
+                "finish_reason": "tool_use",
+                "provider_stop_sequence": null,
+                "tool_outputs": [
+                    {
+                        "tool_call_id": "toolu_016TEUYNfQWiELDTtPbmR6Sv",
+                        "name": "evolve_capability",
+                        "content": "{\"status\": \"evolving\", \"evo_id\": \"2026-05-25T15-41-56__add_a_tool_that_returns_the_current_date\", \"message\": \"Evolution started in background. The new tool will be available shortly \\u2014 ask me again in a moment.\"}",
+                        "is_error": false
+                    }
+                ]
+            },
+            {
+                "content": "It seems the previous evolution didn't complete successfully. I'm trying again to add a date capability. The evolution is running in the background - please ask me again in a moment and I should be able to tell you today's date!",
+                "role": "assistant",
+                "id": "c8f38d2c-efb0-4376-9eac-1d0e2ff54eb4",
+                "timestamp": 1779723718490366000,
+                "message_type": "plain/txt",
+                "previous_response_id": "msg_01MRCpm7U6S2WRgQYostRedB",
+                "usage_info": {
+                    "prompt_tokens": 1554,
+                    "completion_tokens": 50
+                },
+                "model_used": "claude-sonnet-4-20250514",
+                "finish_reason": "end_turn",
+                "provider_stop_sequence": null,
+                "stop_reason": "end_turn"
+            }
+        ]
+    },
+    "file_path": "None/None/TestBot/test_1/Thoughts/default/1779723718490366000_assistant_txt.json"
+}

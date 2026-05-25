@@ -1,0 +1,31 @@
+cd /Users/ombenifaraja/Documents/work-projects/temporai/dr/test-agent && python -c "
+import sys; sys.path.insert(0, 'src')
+import agents.TestBot
+from agents.TestBot.main import get_current_weather, TOOLS, Mind
+
+# Gate 1: symbol exists and is in TOOLS
+assert get_current_weather in TOOLS, 'get_current_weather not in TOOLS'
+assert hasattr(Mind, 'get_current_weather'), 'get_current_weather not on Mind'
+
+# Gate 2: no required user args (first param is self: Mind)
+import inspect
+sig = inspect.signature(get_current_weather)
+user_params = [p for name, p in sig.parameters.items() if name != 'self']
+required = [p for p in user_params if p.default is inspect.Parameter.empty]
+assert not required, f'Unexpected required params: {required}'
+
+# Gate 3: returns JSON with expected keys for a real city
+import json
+class FakeMind: pass
+result = get_current_weather(FakeMind(), location='London')
+data = json.loads(result)
+assert 'temperature_c' in data, f'Missing temperature_c: {data}'
+assert 'condition' in data, f'Missing condition: {data}'
+assert 'humidity_pct' in data, f'Missing humidity_pct: {data}'
+
+# Gate 4: empty location returns error string (not JSON error dict crash)
+err = get_current_weather(FakeMind(), location='')
+assert 'Error' in err or 'error' in err, f'Expected error for empty location, got: {err}'
+
+print('All gates passed.')
+"

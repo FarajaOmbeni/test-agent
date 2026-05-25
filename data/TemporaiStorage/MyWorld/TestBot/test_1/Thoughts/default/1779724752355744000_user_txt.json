@@ -1,0 +1,9 @@
+{
+    "content": "whwhat is today's weather?",
+    "role": "user",
+    "id": "3bc5bc03-ad72-4831-8782-040efc718a43",
+    "timestamp": 1779724752355744000,
+    "message_type": "plain/txt",
+    "previous_message_id": "cdf57f87-8231-47df-b375-89e8f92a128f",
+    "file_path": "None/None/TestBot/test_1/Thoughts/default/1779724752355744000_user_txt.json"
+}
