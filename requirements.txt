@@ -1,1 +1,3 @@
 -e ../nodeai
+scorecard-ai
+python-dotenv
