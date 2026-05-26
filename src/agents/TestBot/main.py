@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import json
 import logging
+from datetime import date
 
 from nodeai.api import brain, tool, storage, Mind
 
@@ -64,6 +65,16 @@ def greet(self: Mind, name: str = "world") -> str:
 
 
 @tool([AGENT_NAME])
+def get_today_date(self: Mind) -> str:
+    """Return today's date as an ISO 8601 string (YYYY-MM-DD).
+
+    Use when: the user asks for today's date or needs a machine-readable
+    current date string.
+    """
+    return date.today().isoformat()
+
+
+@tool([AGENT_NAME])
 def evolve_capability(self: Mind, wish: str = "") -> str:
     """Add a new capability to this agent via self-evolution.
 
@@ -88,6 +99,11 @@ def evolve_capability(self: Mind, wish: str = "") -> str:
     })
 
 
+
+
+# ── Tool registry ───────────────────────────────────────────────────────
+
+TOOLS = [greet, get_today_date, evolve_capability]
 
 
 # ── Internal hooks ──────────────────────────────────────────────────────
