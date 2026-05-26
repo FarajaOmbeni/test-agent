@@ -44,7 +44,7 @@ def _get_or_create_run(mind: Mind) -> str:
     if not project_id:
         raise ValueError("SCORECARD_PROJECT_ID not set")
 
-    run = client.runs.create(project_id=project_id)
+    run = client.runs.create(project_id=project_id, metric_ids=[])
     _active_runs[mind_id] = run.id
     _log.info("[SCORECARD] Created run %s for mind %s", run.id, mind_id)
     return run.id
@@ -99,10 +99,11 @@ def on_think_ended(self: Mind, final_thought: Any = None) -> None:
                 "response": response_text,
                 "tools_called": ", ".join(tool_names) if tool_names else "none",
             },
+            expected={},
         )
 
         _log.debug("[SCORECARD] Recorded interaction: %s -> %s",
                    user_msg[:60], response_text[:60])
 
     except Exception as exc:
-        _log.warning("[SCORECARD] Failed to record interaction: %s", exc)
+        _log.warning("[SCORECARD] Failed to record interaction: %s", exc, exc_info=True)
