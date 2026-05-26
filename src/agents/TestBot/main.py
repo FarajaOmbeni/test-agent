@@ -110,7 +110,7 @@ TOOLS = [greet, get_today_date, evolve_capability]
 
 
 @tool([AGENT_NAME], internal=True)
-def on_think_start(self: Mind) -> str | None:
+def on_think_start(self: Mind, **_kw) -> str | None:
     """Check for completed background evolutions and announce them."""
     pending = self.unbox("pending_evolutions", [])
     if not pending or not isinstance(pending, list):
