@@ -1,9 +1,0 @@
-{
-    "content": "what is today's date?",
-    "role": "user",
-    "id": "55f5cbb4-11c4-448e-86e1-5854630521eb",
-    "timestamp": 1779723968215280000,
-    "message_type": "plain/txt",
-    "previous_message_id": "8191c582-b87e-4f5f-a139-55feb211d469",
-    "file_path": "None/None/TestBot/test_1/Thoughts/default/1779723968215280000_user_txt.json"
-}

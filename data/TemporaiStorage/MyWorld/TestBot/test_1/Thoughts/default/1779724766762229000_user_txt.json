@@ -1,9 +1,0 @@
-{
-    "content": "check weather for nairobi, kenya",
-    "role": "user",
-    "id": "753d9436-a44c-4b62-884b-53ea3dc82506",
-    "timestamp": 1779724766762229000,
-    "message_type": "plain/txt",
-    "previous_message_id": "1157531d-8d1e-4c5e-ba75-8cd348fc0995",
-    "file_path": "None/None/TestBot/test_1/Thoughts/default/1779724766762229000_user_txt.json"
-}

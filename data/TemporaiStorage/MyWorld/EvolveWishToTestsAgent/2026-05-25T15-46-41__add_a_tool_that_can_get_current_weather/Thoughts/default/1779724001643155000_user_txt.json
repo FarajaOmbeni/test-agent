@@ -1,8 +1,0 @@
-{
-    "content": "{\"evo_id\": \"2026-05-25T15-46-41__add_a_tool_that_can_get_current_weather\", \"mind_type\": \"TestBot\", \"query\": \"add a tool that can get current weather information for a given location\", \"blast_radius\": \"tool\"}",
-    "role": "user",
-    "id": "d44d959a-6973-410c-a023-c7fff4d26eb2",
-    "timestamp": 1779724001643155000,
-    "message_type": "plain/txt",
-    "file_path": "None/None/EvolveWishToTestsAgent/2026-05-25T15-46-41__add_a_tool_that_can_get_current_weather/Thoughts/default/1779724001643155000_user_txt.json"
-}

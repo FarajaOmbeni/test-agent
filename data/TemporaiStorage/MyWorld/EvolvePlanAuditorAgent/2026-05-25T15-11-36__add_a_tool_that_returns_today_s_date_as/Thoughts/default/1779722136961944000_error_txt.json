@@ -1,9 +1,0 @@
-{
-    "content": "Brain pipeline failed: [CC_BRAIN] cwd does not exist: /Users/ombenifaraja/Documents/work-projects/temporai/dr/test-agent/data/MyWorld/TestBot",
-    "role": "error",
-    "id": "79a57c21-6866-476e-951d-3b9c2b81db3a",
-    "timestamp": 1779722136961944000,
-    "message_type": "plain/txt",
-    "stop_reason": "error",
-    "file_path": "None/None/EvolvePlanAuditorAgent/2026-05-25T15-11-36__add_a_tool_that_returns_today_s_date_as/Thoughts/default/1779722136961944000_error_txt.json"
-}

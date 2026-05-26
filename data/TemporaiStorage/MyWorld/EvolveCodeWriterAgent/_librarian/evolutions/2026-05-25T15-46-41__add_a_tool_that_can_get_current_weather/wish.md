@@ -1,1 +1,0 @@
-add a tool that can get current weather information for a given location

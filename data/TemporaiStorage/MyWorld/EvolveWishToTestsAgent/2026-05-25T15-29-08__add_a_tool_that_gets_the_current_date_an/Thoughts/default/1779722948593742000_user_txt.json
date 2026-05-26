@@ -1,8 +1,0 @@
-{
-    "content": "{\"evo_id\": \"2026-05-25T15-29-08__add_a_tool_that_gets_the_current_date_an\", \"mind_type\": \"TestBot\", \"query\": \"add a tool that gets the current date and time\", \"blast_radius\": \"tool\"}",
-    "role": "user",
-    "id": "21b8c691-4dbf-43a6-bb01-04f0b11c7dc3",
-    "timestamp": 1779722948593742000,
-    "message_type": "plain/txt",
-    "file_path": "None/None/EvolveWishToTestsAgent/2026-05-25T15-29-08__add_a_tool_that_gets_the_current_date_an/Thoughts/default/1779722948593742000_user_txt.json"
-}

@@ -1,8 +1,0 @@
-{
-    "content": "{\"evo_id\": \"2026-05-25T15-11-36__add_a_tool_that_returns_today_s_date_as\", \"mind_type\": \"TestBot\", \"query\": \"add a tool that returns today's date as ISO 8601\", \"blast_radius\": \"tool\"}",
-    "role": "user",
-    "id": "632199d8-9607-4257-a133-36eba4946246",
-    "timestamp": 1779721896683494000,
-    "message_type": "plain/txt",
-    "file_path": "None/None/EvolveWishToTestsAgent/2026-05-25T15-11-36__add_a_tool_that_returns_today_s_date_as/Thoughts/default/1779721896683494000_user_txt.json"
-}

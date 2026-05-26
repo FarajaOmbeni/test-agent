@@ -1,8 +1,0 @@
-{
-    "content": "What is today's date in ISO 8601 format?",
-    "role": "user",
-    "id": "18e1b06c-44e2-44a1-adf8-0eb028e34329",
-    "timestamp": 1779721892568561000,
-    "message_type": "plain/txt",
-    "file_path": "None/None/TestBot/test_1/Thoughts/default/1779721892568561000_user_txt.json"
-}
