@@ -1,6 +1,1 @@
--e ../nodeai
-scorecard-ai
-opentelemetry-api
-opentelemetry-sdk
-opentelemetry-exporter-otlp
-python-dotenv
+scorecard-ai>=3.4.0,<3.5.0
